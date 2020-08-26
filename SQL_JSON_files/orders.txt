@@ -1,0 +1,125 @@
+/* 1 */
+{
+    "_id" : ObjectId("5eaeff57b55c67d30952328a"),
+    "user_id" : "5eaeff122adbc54af075f8bc",
+    "__v" : 0,
+    "dateandtime" : [ 
+        ISODate("2020-05-03T17:28:55.930Z")
+    ],
+    "items" : [ 
+        {
+            "toppings" : [],
+            "_id" : ObjectId("5eaeff5789e417927ca049bd"),
+            "name" : "Five Cheese Ziti al Forno",
+            "crust" : "NA",
+            "size" : "NA",
+            "quantity" : 3,
+            "baseprice" : 7.2,
+            "totalprice" : 21.6
+        }
+    ],
+    "finalPrice" : 21.6
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5eaf2b3ab55c67d30952354c"),
+    "user_id" : "5eaf2af1b699191f946ff544",
+    "__v" : 0,
+    "dateandtime" : [ 
+        ISODate("2020-05-03T20:36:10.615Z"), 
+        ISODate("2020-05-03T20:37:48.701Z")
+    ],
+    "items" : [ 
+        {
+            "toppings" : [],
+            "_id" : ObjectId("5eaf2b9cb699191f946ff54a"),
+            "name" : "Five Cheese Ziti al Forno",
+            "crust" : "NA",
+            "size" : "NA",
+            "quantity" : 2,
+            "baseprice" : 7.2,
+            "totalprice" : 14.4
+        }
+    ],
+    "finalPrice" : 14.4
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5eb09f7eb55c67d309523ec6"),
+    "user_id" : "5eb09f287c4e5950cc900d60",
+    "__v" : 0,
+    "dateandtime" : [ 
+        ISODate("2020-05-04T23:04:30.738Z"), 
+        ISODate("2020-05-04T23:05:12.725Z"), 
+        ISODate("2020-05-04T23:05:34.035Z")
+    ],
+    "items" : [ 
+        {
+            "toppings" : [ 
+                "Onions", 
+                "Green Olives"
+            ],
+            "_id" : ObjectId("5eb09fa87c4e5950cc900d66"),
+            "name" : "Caucasian Pizza",
+            "crust" : "HAND TOSSED",
+            "size" : "MEDIUM 12",
+            "quantity" : 3,
+            "baseprice" : 8.5,
+            "totalprice" : 25.5
+        }, 
+        {
+            "toppings" : [],
+            "_id" : ObjectId("5eb09fbe7c4e5950cc900d69"),
+            "name" : "Sweet lime juice",
+            "crust" : "NA",
+            "size" : "NA",
+            "quantity" : 3,
+            "baseprice" : 3,
+            "totalprice" : 9
+        }
+    ],
+    "finalPrice" : 34.5
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5eb0a560b55c67d309524762"),
+    "user_id" : "5eb0a50a62ebc55344a62fac",
+    "__v" : 0,
+    "dateandtime" : [ 
+        ISODate("2020-05-04T23:29:36.676Z"), 
+        ISODate("2020-05-04T23:29:45.151Z"), 
+        ISODate("2020-05-04T23:30:25.046Z")
+    ],
+    "items" : [ 
+        {
+            "toppings" : [ 
+                "Black Olives"
+            ],
+            "_id" : ObjectId("5eb0a56062ebc55344a62faf"),
+            "name" : "Tomato Pie",
+            "crust" : "BROOKLYN STYLE",
+            "size" : "SMALL 10",
+            "quantity" : 1,
+            "baseprice" : 5.2,
+            "totalprice" : 5.2
+        }, 
+        {
+            "toppings" : [ 
+                "Tomatoes", 
+                "Green Olives", 
+                "Green Peppers"
+            ],
+            "_id" : ObjectId("5eb0a59162ebc55344a62fb5"),
+            "name" : "Tomato Pie",
+            "crust" : "HAND TOSSED",
+            "size" : "LARGE 14",
+            "quantity" : 4,
+            "baseprice" : 5.2,
+            "totalprice" : 20.8
+        }
+    ],
+    "finalPrice" : 26
+}

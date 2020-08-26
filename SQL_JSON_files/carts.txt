@@ -1,0 +1,33 @@
+/* 1 */
+{
+    "_id" : ObjectId("5eb0a790b55c67d309524d13"),
+    "user_id" : "5eb0a50a62ebc55344a62fac",
+    "__v" : 0,
+    "dateandtime" : [ 
+        ISODate("2020-05-04T23:38:55.977Z"), 
+        ISODate("2020-05-04T23:39:03.948Z")
+    ],
+    "items" : [ 
+        {
+            "toppings" : [],
+            "_id" : ObjectId("5eb0a790304613a9e8461a5a"),
+            "name" : "Grapefruit juice",
+            "crust" : "NA",
+            "size" : "NA",
+            "quantity" : 3,
+            "baseprice" : 3,
+            "totalprice" : 9
+        }, 
+        {
+            "toppings" : [],
+            "_id" : ObjectId("5eb0a797304613a9e8461a5d"),
+            "name" : "Chicken Parmigiana",
+            "crust" : "NA",
+            "size" : "NA",
+            "quantity" : 5,
+            "baseprice" : 8,
+            "totalprice" : 40
+        }
+    ],
+    "finalPrice" : 49
+}
